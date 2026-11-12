@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Saierdaer Yusuyin's research on multilingual and crosslingual speech recognition.">
+  <title>Saierdaer Yusuyin | Academic Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="site-title" href="#about">Homepage</a>
+      <div class="nav-links">
+        <a href="#about">About Me</a><a href="#news">News</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Research Experience</a><a href="#education">Education</a><a href="#talks">Talks</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Profile">
+      <img class="portrait" src="assets/portrait.jpg" alt="Saierdaer Yusuyin">
+      <div class="profile-details">
+        <h1>Saierdaer Yusuyin</h1>
+        <p class="role">Ph.D. Candidate<br>Xinjiang University</p>
+        <p class="membership">IEEE Senior Member</p>
+        <ul class="contact-list">
+          <li><span class="icon" aria-hidden="true">&#xf041;</span> China</li>
+          <li><span class="icon" aria-hidden="true">&#xf0e0;</span> <a href="mailto:sar_dar@foxmail.com">sar_dar (at) foxmail.com</a></li>
+          <li><span class="icon" aria-hidden="true">&#xf19d;</span> <a href="https://scholar.google.com/citations?user=Ndo1boAAAAAJ">Google Scholar</a></li>
+          <li><span class="icon" aria-hidden="true">&#xf0c3;</span> <a href="https://www.researchgate.net/profile/Saierdaer-Yusuyin">ResearchGate</a></li>
+          <li><span class="icon" aria-hidden="true">&#xf09b;</span> <a href="https://github.com/thu-spmi/CAT">CAT Toolkit</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Ph.D. candidate in Computer Science and Technology at Xinjiang University, supervised by <a href="https://it.xju.edu.cn/info/1149/1706.htm">Prof. Hao Huang</a>. I am also a research intern at the Speech Processing and Machine Intelligence (SPMI) Lab at Tsinghua University, supervised by <a href="https://oa.ee.tsinghua.edu.cn/~ouzhijian/">Prof. Zhijian Ou</a>.</p>
+        <p>My research focuses on <strong>data-efficient multilingual and crosslingual automatic speech recognition</strong>. I am particularly interested in phoneme-based modeling and how shared speech representations can help build recognition systems for low-resource languages.</p>
+        <p>My work includes <a href="#pub-whistle">Whistle</a>, which uses weak phonetic supervision, and <a href="#pub-jsa-spg">JSA-SPG</a>, a pronunciation-lexicon-free training approach. I am also a core contributor to the <a href="https://github.com/thu-spmi/CAT">CAT speech recognition toolkit</a>.</p>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-09">Sep 2026</time> Our paper <a href="#pub-latent-softmax">Latent Softmax</a> was accepted to IEEE SLT 2026.</li>
+          <li><time datetime="2026-09">Sep 2026</time> I was a speaker at the Interspeech 2026 tutorial on data-efficient multilingual and crosslingual ASR powered by LLMs.</li>
+          <li><time datetime="2025-12">Dec 2025</time> Our paper on pronunciation-lexicon-free crosslingual ASR, <a href="#pub-jsa-spg">JSA-SPG</a>, was published online in IEEE TASLP.</li>
+          <li><time datetime="2025-03">Mar 2025</time> <a href="#pub-whistle">Whistle</a> was published online in IEEE TASLP.</li>
+        </ul>
+      </section>
+
+      <section id="research">
+        <h2>Research Area</h2>
+        <p>I study methods that make speech recognition more accessible across languages, particularly when transcribed data and pronunciation lexicons are limited.</p>
+        <ul>
+          <li>Multilingual, crosslingual and low-resource speech recognition</li>
+          <li>Phoneme-based modeling and speech-language interfaces</li>
+          <li>Weakly supervised and lexicon-free learning</li>
+          <li>Speech foundation models and LLM-based speech recognition</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <p class="section-note">See also my <a href="https://scholar.google.com/citations?user=Ndo1boAAAAAJ">Google Scholar profile</a>.</p>
+        <ul class="publications">
+          <li id="pub-latent-softmax"><strong>Latent Softmax for Data-Efficient Phoneme-Based Multilingual ASR Across Tonal and Non-Tonal Languages.</strong><br><b>Saierdaer Yusuyin</b>, Nanling Jiang, Hao Huang, and Zhijian Ou.<br><em>IEEE Spoken Language Technology Workshop (SLT)</em>, 2026, accepted. <a href="https://arxiv.org/abs/2608.01281">[arXiv]</a></li>
+          <li id="pub-jsa-spg"><strong>Pronunciation-Lexicon Free Training for Phoneme-Based Crosslingual ASR via Joint Stochastic Approximation.</strong><br><b>Saierdaer Yusuyin</b>, Te Ma, Hao Huang, and Zhijian Ou.<br><em>IEEE Transactions on Audio, Speech and Language Processing</em>, 2026. <a href="https://ieeexplore.ieee.org/document/11304538/">[Paper]</a> <a href="https://arxiv.org/abs/2507.06249">[arXiv]</a> <a href="https://github.com/thu-spmi/CAT/tree/master/egs/JSA-SPG">[Code]</a></li>
+          <li id="pub-whistle"><strong>Whistle: Data-Efficient Multilingual and Crosslingual Speech Recognition via Weakly Phonetic Supervision.</strong><br><b>Saierdaer Yusuyin</b>, Te Ma, Hao Huang, Wenbo Zhao, and Zhijian Ou.<br><em>IEEE Transactions on Audio, Speech and Language Processing</em>, 2025. <a href="https://ieeexplore.ieee.org/document/10923750">[Paper]</a> <a href="https://arxiv.org/abs/2406.02166">[arXiv]</a> <a href="https://github.com/thu-spmi/CAT/tree/master/egs/cv-lang10">[Code]</a></li>
+          <li><strong>LLM-based Phoneme-to-Grapheme for Phoneme-Based Speech Recognition.</strong><br>Te Ma, Min Bi, <b>Saierdaer Yusuyin</b>, Hao Huang, and Zhijian Ou.<br><em>Interspeech</em>, 2025. <a href="https://www.isca-archive.org/interspeech_2025/ma25_interspeech.html">[Paper]</a></li>
+          <li id="pub-phone-subwords"><strong>Investigation into Phone-Based Subword Units for Multilingual End-to-End Speech Recognition.</strong><br><b>Saierdaer Yusuyin</b>, Hao Huang, Junhua Liu, and Cong Liu.<br><em>ICASSP</em>, 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10096812">[Paper]</a></li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Research Experience</h2>
+        <ul class="detail-list">
+          <li><strong>Research Intern</strong>, Speech Processing and Machine Intelligence Lab, Tsinghua University <span class="date">Jan 2023 - present</span><br>Supervisor: <a href="https://oa.ee.tsinghua.edu.cn/~ouzhijian/">Prof. Zhijian Ou</a></li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="detail-list">
+          <li><strong>Ph.D. in Computer Science and Technology</strong>, Xinjiang University <span class="date">Sep 2021 - Dec 2026 (expected)</span><br>Supervisor: <a href="https://it.xju.edu.cn/info/1149/1706.htm">Prof. Hao Huang</a></li>
+          <li><strong>Master's in Software Engineering</strong>, Xinjiang University <span class="date">Sep 2019 - Jul 2021</span><br>Supervisor: <a href="https://it.xju.edu.cn/info/1155/3270.htm">Prof. Liejun Wang</a>, Transferred to the Ph.D. program.</li>
+          <li><strong>B.S. in Software Engineering</strong>, Northwestern Polytechnical University <span class="date">Sep 2015 - Jul 2019</span></li>
+        </ul>
+      </section>
+
+      <section id="talks">
+        <h2>Talks &amp; Tutorial</h2>
+        <ul class="detail-list">
+          <li><strong>Advances in Data-Efficient Multilingual and Crosslingual Speech Recognition Powered by LLMs.</strong><br>Interspeech 2026 tutorial, Sydney, Australia, September 2026. <a href="https://oa.ee.tsinghua.edu.cn/~ouzhijian/INTERSPEECH2026/">[Tutorial Website]</a></li>
+          <li><strong>Phoneme-based Speech Recognition Driven by Large Language Models and Sampling Marginalization.</strong><br>20th National Conference on Man-Machine Speech Communication, October 2025.</li>
+          <li><strong>Phonemes as Speech-Language Interface for Data-Efficient Multilingual and Crosslingual Speech Recognition.</strong><br>Invited talk, Tsinghua University, May 2025.</li>
+          <li><strong><a href="#pub-phone-subwords">Investigation into Phone-Based Subword Units for Multilingual End-to-End Speech Recognition.</a></strong><br>ICASSP, June 2023.</li>
+        </ul>
+      </section>
+
+      <footer>&copy; 2026 Saierdaer Yusuyin</footer>
+    </main>
+  </div>
+</body>
+</html>
